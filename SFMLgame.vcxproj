@@ -142,7 +142,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameTextBuilder.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SpriteMap.cpp" />
+    <ClCompile Include="SpriteObj.cpp" />
+    <ClCompile Include="SpritesMap.cpp" />
+    <ClCompile Include="GameText.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameTextBuilder.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SpriteMap.h" />
+    <ClInclude Include="SpriteObj.h" />
+    <ClInclude Include="GameText.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
