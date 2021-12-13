@@ -4,22 +4,22 @@
 
 GameText GameTextBuilder::textPlayer(std::string text)
 {
-    return GameText("Harry Potter.ttf",text,50, sf::Color::Blue,sf::Text::Italic);
+    return GameText("clash.ttf",text,40, sf::Color::Blue,sf::Text::Bold);
 
 }
 
 GameText GameTextBuilder::textPlayerStats(std::string text)
 {
-    return GameText("clash.ttf", text, 20, sf::Color::Black, sf::Text::Italic);
+    return GameText("clash.ttf", text, 20, sf::Color::Black, sf::Text::Bold);
 }
 
 GameText GameTextBuilder::textFacts(std::string text)
 {
-    return GameText("Harry Potter.ttf", text, 20, sf::Color::Black, sf::Text::Regular);
+    return GameText("Montserrat-LightItalic.ttf", text, 20, sf::Color::Black, sf::Text::Regular);
 }
 
 GameText GameTextBuilder::textTitleFacts(std::string text)
 {
-    return GameText("clash.ttf", text, 35, sf::Color::Black, sf::Text::Bold);
+    return GameText("clash.ttf", text, 35, sf::Color::Magenta, sf::Text::Bold);
 }
 

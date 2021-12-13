@@ -19,14 +19,14 @@ void Player::movePlayer(int xCoordinate, int yCoordinate)
 
 }
 
-void Player::checkObject(char object, int &currentIndex )
+void Player::checkObject(std::string object, int &currentIndex )
 {
-	if (object=='s') {
+	if (object=="s") {
 			currentIndex -= 1;
 			std::cout << "s" << std::endl;
 	}
 
-	if (object == 'c') {
+	if (object == "c") {
 		currentIndex += 3;
 		std::cout << "c" << std::endl;
 	}

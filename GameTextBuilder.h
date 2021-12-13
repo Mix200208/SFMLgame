@@ -11,6 +11,5 @@ class GameTextBuilder
 		GameText textFacts(std::string text);
 		GameText textTitleFacts(std::string text);
 
-
 };
 

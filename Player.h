@@ -11,7 +11,7 @@ class Player
 	public:
 		Player(std::string imageName);
 		void movePlayer(int xCoordinate, int yCoordinate);
-		void checkObject(char object, int &currentIndex);
+		void checkObject(std::string object, int &currentIndex);
 		void drawPlayer(RenderWindow& window,int height, int  width);
 		Sprite* getSprite();
 		

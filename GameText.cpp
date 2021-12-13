@@ -21,6 +21,11 @@ void GameText::setPosition(int xCoordynate, int yCoordynate)
 	this->text.setPosition(xCoordynate,yCoordynate);
 }
 
+void GameText::setTextColor(sf::Color color)
+{
+	this->text.setFillColor(color);
+}
+
 void GameText::drawText(RenderWindow& window)
 {
 	window.draw(this->text);
